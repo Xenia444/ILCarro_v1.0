@@ -3,6 +3,8 @@ package application;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperBase {
     WebDriver wd;
@@ -13,6 +15,7 @@ public class HelperBase {
 
     public void click(By locator){
         wd.findElement(locator).click();
+
     }
 
     public void type(By locator, String text){
@@ -34,5 +37,10 @@ public class HelperBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void waitForElement(By locator, int timeOut) {
+        new WebDriverWait(wd, timeOut).until(ExpectedConditions
+                .presenceOfElementLocated(locator));
     }
 }

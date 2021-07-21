@@ -1,4 +1,4 @@
-package cw_loginTest_12_07;
+package tests;
 
 import application.ApplicationManager;
 import org.testng.annotations.AfterClass;

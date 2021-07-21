@@ -1,4 +1,4 @@
-package cw_loginTest_12_07;
+package tests;
 
 import models.User;
 import org.openqa.selenium.By;
