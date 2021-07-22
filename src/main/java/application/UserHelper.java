@@ -3,12 +3,6 @@ package application;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
 
 public class UserHelper extends HelperBase{
     public UserHelper(WebDriver wd) {
@@ -58,7 +52,7 @@ public class UserHelper extends HelperBase{
     }
 
     public void clickOnCheckbox() {
-        click(By.id("terms-of-use"));
+        click(By.xpath("//div[@class='checkbox-container']"));
     }
 
     public void clickOnYalla() {
@@ -66,6 +60,7 @@ public class UserHelper extends HelperBase{
     }
 
     public String takeTheText() {
+
         return getText(By.xpath("//div[@class='dialog-container']//h2"));
     }
 
