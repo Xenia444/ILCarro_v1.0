@@ -20,7 +20,7 @@ public class LoginTest extends TestBase {
 
         app.userHelper().openLoginFrom();
         app.userHelper().fillLoginForm("pass@gmail.com", "Pa$$gmailc0m");
-        app.userHelper().submitLogin();
+        app.userHelper().clickOnSubmit();
         app.userHelper().pause(3000);
         String loginS = app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
         app.userHelper().clickOkButton();
@@ -34,7 +34,7 @@ public class LoginTest extends TestBase {
         app.userHelper().openLoginFrom();
         app.userHelper().fillLoginForm(user);
 
-        app.userHelper().submitLogin();
+        app.userHelper().clickOnSubmit();
         app.userHelper().pause(3000);
         String loginS = app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
         app.userHelper().clickOkButton();

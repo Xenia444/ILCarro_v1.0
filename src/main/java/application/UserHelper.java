@@ -23,10 +23,6 @@ public class UserHelper extends HelperBase{
         type(By.id("password"), user.getPassword());
     }
 
-    public void submitLogin() {
-        click(By.xpath("//*[@type='submit']"));
-    }
-
     public void clickOkButton() {
         click(By.xpath("//button[.='Ok']"));
     }
@@ -55,7 +51,7 @@ public class UserHelper extends HelperBase{
         click(By.xpath("//div[@class='checkbox-container']"));
     }
 
-    public void clickOnYalla() {
+    public void clickOnSubmit() {
         click(By.xpath("//*[@type='submit']"));
     }
 
@@ -66,6 +62,8 @@ public class UserHelper extends HelperBase{
 
 
     public void waitTheRegistrationInSuccess() {
+
         waitForElement(By.xpath("//div[@class='dialog-container']//h2"), 15);
     }
+
 }

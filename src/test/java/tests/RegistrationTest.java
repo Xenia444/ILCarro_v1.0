@@ -27,7 +27,7 @@ public class RegistrationTest extends TestBase {
         app.userHelper().clickOnCheckbox();
 
 
-        app.userHelper().clickOnYalla();
+        app.userHelper().clickOnSubmit();
 
         app.userHelper().waitTheRegistrationInSuccess();
 

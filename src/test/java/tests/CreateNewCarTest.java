@@ -9,7 +9,11 @@ public class CreateNewCarTest extends TestBase {
 
     @BeforeMethod
     public void precondition() {
-        //login
+        if(app.userHelper().isLogged()) {
+            LoginTest login = new LoginTest();
+            login.loginTestPositive();
+        }
+        app.carHelper().goToTheHomePage();
     }
 
     @Test
@@ -18,28 +22,32 @@ public class CreateNewCarTest extends TestBase {
 
         Car car = Car.builder()
                 .address("Tel Aviv, Israel")
-                .make("BMW")
-                .model("M5")
-                .year("2020")
-                .engine("2.0")
+                .make("Ferrari")
+                .model("Portofino M")
+                .year("2021")
+                .engine("2.6")
                 .fuel("Petrol")
                 .gear("MT")
                 .wD("AWD")
-                .doors("5")
-                .seats("4")
-                .clasS("C")
-                .fuelConsumption("6.5")
+                .doors("3")
+                .seats("2")
+                .clasS("Ы")
+                .fuelConsumption("15.0")
                 .carRegNumber("12-" + i)
-                .price("65")
+                .price("250")
                 .distanceIncluded("500")
                 .typeFeature("type of")
                 .about("Very good car")
                 .build();
 
+        System.out.println("Car number:" +car.getCarRegNumber());
         app.carHelper().openCarForm();
         app.carHelper().fillCarForm(car);
         app.carHelper().attachPhoto();
-        //assert
+        app.carHelper().waitForActiveSubmit();
+        app.carHelper().clickOnSubmitButton();
+
+        app.carHelper().waitForCarAdded();
         Assert.assertTrue(app.carHelper().isCarAdded());
 
     }

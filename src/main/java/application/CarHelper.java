@@ -4,6 +4,9 @@ import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class CarHelper extends HelperBase {
 
@@ -41,7 +44,7 @@ public class CarHelper extends HelperBase {
             type(By.cssSelector(".feature-input"), car.getTypeFeature());
             type(By.id("about"),car.getAbout());
 
-            pause(7000);
+         //   pause(7000);
 
         }
     }
@@ -56,16 +59,34 @@ public class CarHelper extends HelperBase {
         pause(2000);
     }
 
+    public void goToTheHomePage() {
+        wd.navigate().to("https://ilcarro.xyz/search");
+    }
+
     private boolean isCarFormPresent() {
         return wd.findElements(By.xpath("//h1[contains(.,' Let the car work ')]")).size() > 0;
     }
 
     public void attachPhoto() {
-        wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/bmw.jpeg");
+        wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/ferrari.jpg");
 
     }
 
+    public void waitForActiveSubmit() {
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[.='Submit']")));
+    }
+
+    public void clickOnSubmitButton() {
+        click(By.xpath("//*[@type='submit']"));
+    }
+
+    public void waitForCarAdded() {
+        waitForElement(By.xpath("//*[contains(@id, 'mat-dialog')]"), 10);
+    }
+
     public boolean isCarAdded() {
-        return true;
+        return wd.findElements(By.xpath("//h2[contains(., 'successful')]")).size() > 0;
+
     }
 }
