@@ -89,4 +89,8 @@ public class CarHelper extends HelperBase {
         return wd.findElements(By.xpath("//h2[contains(., 'successful')]")).size() > 0;
 
     }
+
+    public void submitCar() {
+        click(By.xpath("//button[text()='Search cars']"));
+    }
 }

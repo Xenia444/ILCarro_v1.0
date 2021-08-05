@@ -63,7 +63,7 @@ public class UserHelper extends HelperBase{
 
     public void waitTheRegistrationInSuccess() {
 
-        waitForElement(By.xpath("//div[@class='dialog-container']//h2"), 15);
+        waitForElement(By.xpath("//div[@class='dialog-container']//h2"), 30);
     }
 
 }

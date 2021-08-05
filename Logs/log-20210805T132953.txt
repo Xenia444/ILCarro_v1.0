@@ -1,0 +1,26 @@
+13:29:53 INFO  application.ApplicationManager - Star browser CHROME
+13:29:55 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+13:29:55 INFO  tests.TestBase - Start method createNewCar
+13:30:07 INFO  tests.TestBase - End of method createNewCar
+13:30:07 INFO  tests.TestBase - Start method loginTestPositive
+13:30:20 INFO  tests.TestBase - End of method loginTestPositive
+13:30:20 INFO  tests.TestBase - Start method loginTestPositiveDto
+13:30:33 INFO  tests.TestBase - End of method loginTestPositiveDto
+13:30:33 INFO  tests.TestBase - Start method registrationPositiveTest
+13:30:44 INFO  tests.TestBase - Registration: 
+Name - Lion
+Last Name - King2
+Email - pass1844@gmail.com
+Password - Pa$$1844gmailc0m
+13:30:45 INFO  tests.TestBase - Test passed
+13:30:45 INFO  tests.TestBase - End of method registrationPositiveTest
+13:30:45 INFO  tests.TestBase - Start method negativeTestSendKey
+13:30:48 INFO  tests.TestBase - End of method negativeTestSendKey
+13:30:48 INFO  tests.TestBase - Start method positiveTestSendKey
+13:30:48 INFO  tests.TestBase - Haifa","08/10/2021","08/30/2021"
+13:30:49 INFO  tests.TestBase - message
+13:30:51 INFO  tests.TestBase - End of method positiveTestSendKey
+13:30:51 INFO  tests.TestBase - Start method selectPeriodCurrentMouth
+13:30:54 INFO  tests.TestBase - End of method selectPeriodCurrentMouth
+13:30:54 INFO  tests.TestBase - Start method selectPeriodInFuture
+13:30:58 INFO  tests.TestBase - End of method selectPeriodInFuture

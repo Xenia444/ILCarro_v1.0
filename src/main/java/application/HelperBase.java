@@ -1,11 +1,14 @@
 package application;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
+
 
 public class HelperBase {
     WebDriver wd;
@@ -46,6 +49,25 @@ public class HelperBase {
 
     public void waitForElement(By locator, int timeOut) {
         new WebDriverWait(wd, timeOut).until(ExpectedConditions
-                .presenceOfElementLocated(locator));
+                .visibilityOf(wd.findElement(locator)));
+    }
+
+    public void hideFooter(){
+        JavascriptExecutor js = (JavascriptExecutor)wd;
+        js.executeScript("document.querySelector('footer').style.display='none'");
+    }
+
+    public boolean isElementPresent(By locator){
+        return wd.findElements(locator).size()>0;
+    }
+
+    public void  takeScreenshot(String pathFile) {
+        File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(pathFile);
+        try {
+            Files.copy(tmp,screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
