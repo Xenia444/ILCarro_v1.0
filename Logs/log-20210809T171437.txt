@@ -1,0 +1,286 @@
+17:14:38 INFO  application.ApplicationManager - Star browser CHROME
+17:14:39 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+17:14:39 INFO  tests.TestBase - Start method createNewCarCSV
+17:14:39 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+17:14:39 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+17:14:39 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+17:14:39 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+17:14:39 INFO  application.MyListener - Start search element By.id: email.
+17:14:39 INFO  application.MyListener - Element By.id: email found.
+17:14:39 INFO  application.MyListener - Start search element By.id: password.
+17:14:39 INFO  application.MyListener - Element By.id: password found.
+17:14:39 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+17:14:39 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+17:14:42 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+17:14:42 INFO  application.MyListener - Element By.xpath: //div[@class='dialog-container']//h2 found.
+17:14:42 INFO  application.MyListener - Start search element By.xpath: //button[.='Ok'].
+17:14:42 INFO  application.MyListener - Element By.xpath: //button[.='Ok'] found.
+17:14:43 INFO  application.MyListener - Start search element By.id: 1.
+17:14:43 INFO  application.MyListener - Element By.id: 1 found.
+17:14:43 INFO  application.MyListener - Start search element By.xpath: //h1[contains(.,' Let the car work ')].
+17:14:43 INFO  application.MyListener - Element By.xpath: //h1[contains(.,' Let the car work ')] found.
+17:14:43 INFO  application.MyListener - Start search element By.id: pickUpPlace.
+17:14:43 INFO  application.MyListener - Element By.id: pickUpPlace found.
+17:14:45 INFO  application.MyListener - Start search element By.xpath: //div[@class='pac-item'].
+17:14:45 INFO  application.MyListener - Element By.xpath: //div[@class='pac-item'] found.
+17:14:47 INFO  application.MyListener - Start search element By.id: make.
+17:14:47 INFO  application.MyListener - Element By.id: make found.
+17:14:47 INFO  application.MyListener - Start search element By.id: model.
+17:14:47 INFO  application.MyListener - Element By.id: model found.
+17:14:47 INFO  application.MyListener - Start search element By.id: year.
+17:14:47 INFO  application.MyListener - Element By.id: year found.
+17:14:47 INFO  application.MyListener - Start search element By.id: engine.
+17:14:47 INFO  application.MyListener - Element By.id: engine found.
+17:14:47 INFO  application.MyListener - Start search element By.id: fuel.
+17:14:47 INFO  application.MyListener - Element By.id: fuel found.
+17:14:47 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "Petrol"].
+17:14:47 INFO  application.MyListener - Element By.xpath: .//option[@value = "Petrol"] found.
+17:14:47 INFO  application.MyListener - Start search element By.id: gear.
+17:14:47 INFO  application.MyListener - Element By.id: gear found.
+17:14:47 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "MT"].
+17:14:47 INFO  application.MyListener - Element By.xpath: .//option[@value = "MT"] found.
+17:14:47 INFO  application.MyListener - Start search element By.id: wheelsDrive.
+17:14:47 INFO  application.MyListener - Element By.id: wheelsDrive found.
+17:14:47 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "AWD"].
+17:14:47 INFO  application.MyListener - Element By.xpath: .//option[@value = "AWD"] found.
+17:14:47 INFO  application.MyListener - Start search element By.id: doors.
+17:14:47 INFO  application.MyListener - Element By.id: doors found.
+17:14:48 INFO  application.MyListener - Start search element By.id: seats.
+17:14:48 INFO  application.MyListener - Element By.id: seats found.
+17:14:48 INFO  application.MyListener - Start search element By.id: class.
+17:14:48 INFO  application.MyListener - Element By.id: class found.
+17:14:48 INFO  application.MyListener - Start search element By.id: fuelConsumption.
+17:14:48 INFO  application.MyListener - Element By.id: fuelConsumption found.
+17:14:48 INFO  application.MyListener - Start search element By.id: serialNumber.
+17:14:48 INFO  application.MyListener - Element By.id: serialNumber found.
+17:14:48 INFO  application.MyListener - Start search element By.id: price.
+17:14:48 INFO  application.MyListener - Element By.id: price found.
+17:14:48 INFO  application.MyListener - Start search element By.id: distance.
+17:14:48 INFO  application.MyListener - Element By.id: distance found.
+17:14:48 INFO  application.MyListener - Start search element By.cssSelector: .feature-input.
+17:14:48 INFO  application.MyListener - Element By.cssSelector: .feature-input found.
+17:14:48 INFO  application.MyListener - Start search element By.id: about.
+17:14:48 INFO  application.MyListener - Element By.id: about found.
+17:14:48 INFO  application.MyListener - Start search element By.id: photos.
+17:14:48 INFO  application.MyListener - Element By.id: photos found.
+17:14:48 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:14:48 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:14:49 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:14:49 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:14:49 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:14:49 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:14:50 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:14:50 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:14:50 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+17:14:50 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+17:14:50 INFO  application.MyListener - Start search element By.xpath: //*[contains(@id, 'mat-dialog')].
+17:14:51 INFO  application.MyListener - Element By.xpath: //*[contains(@id, 'mat-dialog')] found.
+17:14:51 INFO  application.MyListener - Start search element By.xpath: //h2[contains(., 'successful')].
+17:14:51 INFO  application.MyListener - Element By.xpath: //h2[contains(., 'successful')] found.
+17:14:51 INFO  application.MyListener - Start search element By.xpath: //button[text()='Search cars'].
+17:14:51 INFO  application.MyListener - Element By.xpath: //button[text()='Search cars'] found.
+17:14:51 INFO  tests.TestBase - End of method createNewCarCSV
+17:14:51 INFO  tests.TestBase - Start method createNewCarCSV
+17:14:51 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+17:15:01 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+17:15:02 INFO  application.MyListener - Start search element By.id: 1.
+17:15:02 INFO  application.MyListener - Element By.id: 1 found.
+17:15:02 INFO  application.MyListener - Start search element By.xpath: //h1[contains(.,' Let the car work ')].
+17:15:02 INFO  application.MyListener - Element By.xpath: //h1[contains(.,' Let the car work ')] found.
+17:15:02 INFO  application.MyListener - Start search element By.id: pickUpPlace.
+17:15:02 INFO  application.MyListener - Element By.id: pickUpPlace found.
+17:15:04 INFO  application.MyListener - Start search element By.xpath: //div[@class='pac-item'].
+17:15:04 INFO  application.MyListener - Element By.xpath: //div[@class='pac-item'] found.
+17:15:06 INFO  application.MyListener - Start search element By.id: make.
+17:15:06 INFO  application.MyListener - Element By.id: make found.
+17:15:06 INFO  application.MyListener - Start search element By.id: model.
+17:15:06 INFO  application.MyListener - Element By.id: model found.
+17:15:06 INFO  application.MyListener - Start search element By.id: year.
+17:15:06 INFO  application.MyListener - Element By.id: year found.
+17:15:06 INFO  application.MyListener - Start search element By.id: engine.
+17:15:06 INFO  application.MyListener - Element By.id: engine found.
+17:15:06 INFO  application.MyListener - Start search element By.id: fuel.
+17:15:06 INFO  application.MyListener - Element By.id: fuel found.
+17:15:06 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "Electric"].
+17:15:06 INFO  application.MyListener - Element By.xpath: .//option[@value = "Electric"] found.
+17:15:06 INFO  application.MyListener - Start search element By.id: gear.
+17:15:06 INFO  application.MyListener - Element By.id: gear found.
+17:15:06 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "MT"].
+17:15:06 INFO  application.MyListener - Element By.xpath: .//option[@value = "MT"] found.
+17:15:06 INFO  application.MyListener - Start search element By.id: wheelsDrive.
+17:15:06 INFO  application.MyListener - Element By.id: wheelsDrive found.
+17:15:06 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "AWD"].
+17:15:06 INFO  application.MyListener - Element By.xpath: .//option[@value = "AWD"] found.
+17:15:06 INFO  application.MyListener - Start search element By.id: doors.
+17:15:06 INFO  application.MyListener - Element By.id: doors found.
+17:15:06 INFO  application.MyListener - Start search element By.id: seats.
+17:15:06 INFO  application.MyListener - Element By.id: seats found.
+17:15:06 INFO  application.MyListener - Start search element By.id: class.
+17:15:06 INFO  application.MyListener - Element By.id: class found.
+17:15:07 INFO  application.MyListener - Start search element By.id: fuelConsumption.
+17:15:07 INFO  application.MyListener - Element By.id: fuelConsumption found.
+17:15:07 INFO  application.MyListener - Start search element By.id: serialNumber.
+17:15:07 INFO  application.MyListener - Element By.id: serialNumber found.
+17:15:07 INFO  application.MyListener - Start search element By.id: price.
+17:15:07 INFO  application.MyListener - Element By.id: price found.
+17:15:07 INFO  application.MyListener - Start search element By.id: distance.
+17:15:07 INFO  application.MyListener - Element By.id: distance found.
+17:15:07 INFO  application.MyListener - Start search element By.cssSelector: .feature-input.
+17:15:07 INFO  application.MyListener - Element By.cssSelector: .feature-input found.
+17:15:07 INFO  application.MyListener - Start search element By.id: about.
+17:15:07 INFO  application.MyListener - Element By.id: about found.
+17:15:07 INFO  application.MyListener - Start search element By.id: photos.
+17:15:07 INFO  application.MyListener - Element By.id: photos found.
+17:15:07 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:07 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:08 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:08 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:08 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:08 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:09 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:09 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:09 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+17:15:09 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+17:15:09 INFO  application.MyListener - Start search element By.xpath: //*[contains(@id, 'mat-dialog')].
+17:15:10 INFO  application.MyListener - Element By.xpath: //*[contains(@id, 'mat-dialog')] found.
+17:15:10 INFO  application.MyListener - Start search element By.xpath: //h2[contains(., 'successful')].
+17:15:10 INFO  application.MyListener - Element By.xpath: //h2[contains(., 'successful')] found.
+17:15:10 INFO  application.MyListener - Start search element By.xpath: //button[text()='Search cars'].
+17:15:10 INFO  application.MyListener - Element By.xpath: //button[text()='Search cars'] found.
+17:15:10 INFO  tests.TestBase - End of method createNewCarCSV
+17:15:10 INFO  tests.TestBase - Start method createNewCarCSV
+17:15:10 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+17:15:21 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+17:15:21 INFO  application.MyListener - Start search element By.id: 1.
+17:15:21 INFO  application.MyListener - Element By.id: 1 found.
+17:15:21 INFO  application.MyListener - Start search element By.xpath: //h1[contains(.,' Let the car work ')].
+17:15:21 INFO  application.MyListener - Element By.xpath: //h1[contains(.,' Let the car work ')] found.
+17:15:21 INFO  application.MyListener - Start search element By.id: pickUpPlace.
+17:15:21 INFO  application.MyListener - Element By.id: pickUpPlace found.
+17:15:23 INFO  application.MyListener - Start search element By.xpath: //div[@class='pac-item'].
+17:15:23 INFO  application.MyListener - Element By.xpath: //div[@class='pac-item'] found.
+17:15:25 INFO  application.MyListener - Start search element By.id: make.
+17:15:25 INFO  application.MyListener - Element By.id: make found.
+17:15:25 INFO  application.MyListener - Start search element By.id: model.
+17:15:25 INFO  application.MyListener - Element By.id: model found.
+17:15:25 INFO  application.MyListener - Start search element By.id: year.
+17:15:25 INFO  application.MyListener - Element By.id: year found.
+17:15:25 INFO  application.MyListener - Start search element By.id: engine.
+17:15:25 INFO  application.MyListener - Element By.id: engine found.
+17:15:25 INFO  application.MyListener - Start search element By.id: fuel.
+17:15:25 INFO  application.MyListener - Element By.id: fuel found.
+17:15:25 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "Petrol"].
+17:15:25 INFO  application.MyListener - Element By.xpath: .//option[@value = "Petrol"] found.
+17:15:25 INFO  application.MyListener - Start search element By.id: gear.
+17:15:25 INFO  application.MyListener - Element By.id: gear found.
+17:15:25 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "MT"].
+17:15:25 INFO  application.MyListener - Element By.xpath: .//option[@value = "MT"] found.
+17:15:25 INFO  application.MyListener - Start search element By.id: wheelsDrive.
+17:15:25 INFO  application.MyListener - Element By.id: wheelsDrive found.
+17:15:25 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "AWD"].
+17:15:25 INFO  application.MyListener - Element By.xpath: .//option[@value = "AWD"] found.
+17:15:25 INFO  application.MyListener - Start search element By.id: doors.
+17:15:25 INFO  application.MyListener - Element By.id: doors found.
+17:15:25 INFO  application.MyListener - Start search element By.id: seats.
+17:15:25 INFO  application.MyListener - Element By.id: seats found.
+17:15:26 INFO  application.MyListener - Start search element By.id: class.
+17:15:26 INFO  application.MyListener - Element By.id: class found.
+17:15:26 INFO  application.MyListener - Start search element By.id: fuelConsumption.
+17:15:26 INFO  application.MyListener - Element By.id: fuelConsumption found.
+17:15:26 INFO  application.MyListener - Start search element By.id: serialNumber.
+17:15:26 INFO  application.MyListener - Element By.id: serialNumber found.
+17:15:26 INFO  application.MyListener - Start search element By.id: price.
+17:15:26 INFO  application.MyListener - Element By.id: price found.
+17:15:26 INFO  application.MyListener - Start search element By.id: distance.
+17:15:26 INFO  application.MyListener - Element By.id: distance found.
+17:15:26 INFO  application.MyListener - Start search element By.cssSelector: .feature-input.
+17:15:26 INFO  application.MyListener - Element By.cssSelector: .feature-input found.
+17:15:26 INFO  application.MyListener - Start search element By.id: about.
+17:15:26 INFO  application.MyListener - Element By.id: about found.
+17:15:26 INFO  application.MyListener - Start search element By.id: photos.
+17:15:26 INFO  application.MyListener - Element By.id: photos found.
+17:15:26 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:26 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:27 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:27 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:27 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:27 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:28 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:28 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:28 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+17:15:28 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+17:15:28 INFO  application.MyListener - Start search element By.xpath: //*[contains(@id, 'mat-dialog')].
+17:15:29 INFO  application.MyListener - Element By.xpath: //*[contains(@id, 'mat-dialog')] found.
+17:15:29 INFO  application.MyListener - Start search element By.xpath: //h2[contains(., 'successful')].
+17:15:29 INFO  application.MyListener - Element By.xpath: //h2[contains(., 'successful')] found.
+17:15:29 INFO  application.MyListener - Start search element By.xpath: //button[text()='Search cars'].
+17:15:29 INFO  application.MyListener - Element By.xpath: //button[text()='Search cars'] found.
+17:15:29 INFO  tests.TestBase - End of method createNewCarCSV
+17:15:29 INFO  tests.TestBase - Start method createNewCarCSV
+17:15:29 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+17:15:39 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+17:15:40 INFO  application.MyListener - Start search element By.id: 1.
+17:15:40 INFO  application.MyListener - Element By.id: 1 found.
+17:15:40 INFO  application.MyListener - Start search element By.xpath: //h1[contains(.,' Let the car work ')].
+17:15:40 INFO  application.MyListener - Element By.xpath: //h1[contains(.,' Let the car work ')] found.
+17:15:40 INFO  application.MyListener - Start search element By.id: pickUpPlace.
+17:15:40 INFO  application.MyListener - Element By.id: pickUpPlace found.
+17:15:42 INFO  application.MyListener - Start search element By.xpath: //div[@class='pac-item'].
+17:15:42 INFO  application.MyListener - Element By.xpath: //div[@class='pac-item'] found.
+17:15:44 INFO  application.MyListener - Start search element By.id: make.
+17:15:44 INFO  application.MyListener - Element By.id: make found.
+17:15:44 INFO  application.MyListener - Start search element By.id: model.
+17:15:44 INFO  application.MyListener - Element By.id: model found.
+17:15:44 INFO  application.MyListener - Start search element By.id: year.
+17:15:44 INFO  application.MyListener - Element By.id: year found.
+17:15:44 INFO  application.MyListener - Start search element By.id: engine.
+17:15:44 INFO  application.MyListener - Element By.id: engine found.
+17:15:44 INFO  application.MyListener - Start search element By.id: fuel.
+17:15:44 INFO  application.MyListener - Element By.id: fuel found.
+17:15:44 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "Petrol"].
+17:15:44 INFO  application.MyListener - Element By.xpath: .//option[@value = "Petrol"] found.
+17:15:44 INFO  application.MyListener - Start search element By.id: gear.
+17:15:44 INFO  application.MyListener - Element By.id: gear found.
+17:15:44 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "MT"].
+17:15:44 INFO  application.MyListener - Element By.xpath: .//option[@value = "MT"] found.
+17:15:44 INFO  application.MyListener - Start search element By.id: wheelsDrive.
+17:15:44 INFO  application.MyListener - Element By.id: wheelsDrive found.
+17:15:44 INFO  application.MyListener - Start search element By.xpath: .//option[@value = "AWD"].
+17:15:44 INFO  application.MyListener - Element By.xpath: .//option[@value = "AWD"] found.
+17:15:44 INFO  application.MyListener - Start search element By.id: doors.
+17:15:44 INFO  application.MyListener - Element By.id: doors found.
+17:15:44 INFO  application.MyListener - Start search element By.id: seats.
+17:15:44 INFO  application.MyListener - Element By.id: seats found.
+17:15:44 INFO  application.MyListener - Start search element By.id: class.
+17:15:44 INFO  application.MyListener - Element By.id: class found.
+17:15:45 INFO  application.MyListener - Start search element By.id: fuelConsumption.
+17:15:45 INFO  application.MyListener - Element By.id: fuelConsumption found.
+17:15:45 INFO  application.MyListener - Start search element By.id: serialNumber.
+17:15:45 INFO  application.MyListener - Element By.id: serialNumber found.
+17:15:45 INFO  application.MyListener - Start search element By.id: price.
+17:15:45 INFO  application.MyListener - Element By.id: price found.
+17:15:45 INFO  application.MyListener - Start search element By.id: distance.
+17:15:45 INFO  application.MyListener - Element By.id: distance found.
+17:15:45 INFO  application.MyListener - Start search element By.cssSelector: .feature-input.
+17:15:45 INFO  application.MyListener - Element By.cssSelector: .feature-input found.
+17:15:45 INFO  application.MyListener - Start search element By.id: about.
+17:15:45 INFO  application.MyListener - Element By.id: about found.
+17:15:45 INFO  application.MyListener - Start search element By.id: photos.
+17:15:45 INFO  application.MyListener - Element By.id: photos found.
+17:15:45 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:45 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:46 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:46 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:46 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:46 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:47 INFO  application.MyListener - Start search element By.xpath: //*[.='Submit'].
+17:15:47 INFO  application.MyListener - Element By.xpath: //*[.='Submit'] found.
+17:15:47 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+17:15:47 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+17:15:47 INFO  application.MyListener - Start search element By.xpath: //*[contains(@id, 'mat-dialog')].
+17:15:48 INFO  application.MyListener - Element By.xpath: //*[contains(@id, 'mat-dialog')] found.
+17:15:51 INFO  application.MyListener - Start search element By.xpath: //h2[contains(., 'successful')].
+17:15:51 INFO  application.MyListener - Element By.xpath: //h2[contains(., 'successful')] found.
+17:15:51 INFO  application.MyListener - Start search element By.xpath: //button[text()='Search cars'].
+17:15:51 INFO  application.MyListener - Element By.xpath: //button[text()='Search cars'] found.
+17:15:51 INFO  tests.TestBase - End of method createNewCarCSV

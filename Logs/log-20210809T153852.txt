@@ -1,0 +1,54 @@
+15:38:52 INFO  application.ApplicationManager - Star browser CHROME
+15:38:54 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+15:38:54 INFO  tests.TestBase - Start method loginTestPositiveCSV
+15:38:54 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:38:54 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:38:54 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:38:54 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:38:54 INFO  application.MyListener - Start search element By.id: email.
+15:38:54 INFO  application.MyListener - Element By.id: emailfound.
+15:38:54 INFO  application.MyListener - Start search element By.id: password.
+15:38:54 INFO  application.MyListener - Element By.id: passwordfound.
+15:38:54 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+15:38:54 INFO  application.MyListener - Element By.xpath: //*[@type='submit']found.
+15:38:57 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+15:38:57 INFO  application.MyListener - Element By.xpath: //div[@class='dialog-container']//h2found.
+15:38:57 INFO  application.MyListener - Start search element By.xpath: //button[.='Ok'].
+15:38:57 INFO  application.MyListener - Element By.xpath: //button[.='Ok']found.
+15:38:57 INFO  tests.TestBase - End of method loginTestPositiveCSV
+15:38:57 INFO  tests.TestBase - Start method loginTestPositiveCSV
+15:38:57 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:39:07 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:39:07 INFO  application.MyListener - Start search element By.xpath: //a[.=' Logout '].
+15:39:07 INFO  application.MyListener - Element By.xpath: //a[.=' Logout ']found.
+15:39:07 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:39:07 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:39:07 INFO  application.MyListener - Start search element By.id: email.
+15:39:07 INFO  application.MyListener - Element By.id: emailfound.
+15:39:07 INFO  application.MyListener - Start search element By.id: password.
+15:39:07 INFO  application.MyListener - Element By.id: passwordfound.
+15:39:08 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+15:39:08 INFO  application.MyListener - Element By.xpath: //*[@type='submit']found.
+15:39:11 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+15:39:11 INFO  application.MyListener - Element By.xpath: //div[@class='dialog-container']//h2found.
+15:39:11 INFO  application.MyListener - Start search element By.xpath: //button[.='Ok'].
+15:39:11 INFO  application.MyListener - Element By.xpath: //button[.='Ok']found.
+15:39:11 INFO  tests.TestBase - End of method loginTestPositiveCSV
+15:39:11 INFO  tests.TestBase - Start method loginTestPositiveCSV
+15:39:11 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:39:21 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:39:21 INFO  application.MyListener - Start search element By.xpath: //a[.=' Logout '].
+15:39:21 INFO  application.MyListener - Element By.xpath: //a[.=' Logout ']found.
+15:39:21 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+15:39:21 INFO  application.MyListener - Element By.xpath: //a[.=' Log in ']found.
+15:39:21 INFO  application.MyListener - Start search element By.id: email.
+15:39:21 INFO  application.MyListener - Element By.id: emailfound.
+15:39:21 INFO  application.MyListener - Start search element By.id: password.
+15:39:21 INFO  application.MyListener - Element By.id: passwordfound.
+15:39:21 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+15:39:21 INFO  application.MyListener - Element By.xpath: //*[@type='submit']found.
+15:39:24 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+15:39:24 INFO  application.MyListener - Element By.xpath: //div[@class='dialog-container']//h2found.
+15:39:24 INFO  application.MyListener - Start search element By.xpath: //button[.='Ok'].
+15:39:24 INFO  application.MyListener - Element By.xpath: //button[.='Ok']found.
+15:39:24 INFO  tests.TestBase - End of method loginTestPositiveCSV

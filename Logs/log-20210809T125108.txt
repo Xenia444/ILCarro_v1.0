@@ -1,0 +1,40 @@
+12:51:08 INFO  application.ApplicationManager - Star browser CHROME
+12:51:10 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+12:51:10 INFO  tests.TestBase - Start method registrationPositiveTest
+12:51:10 INFO  tests.TestBase - Registration: 
+Name - Lion
+Last Name - King2
+Email - pass3070@gmail.com
+Password - Pa$$3070gmailc0m
+12:51:13 INFO  tests.TestBase - Test passed
+12:51:13 INFO  tests.TestBase - End of method registrationPositiveTest
+12:51:13 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+12:51:27 INFO  tests.TestBase - Test passed
+12:51:27 INFO  tests.TestBase - End of method registrationPositiveTestCSV
+12:51:27 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+12:51:40 INFO  tests.TestBase - Test passed
+12:51:40 INFO  tests.TestBase - End of method registrationPositiveTestCSV
+12:51:40 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+12:51:52 INFO  tests.TestBase - Test passed
+12:51:52 INFO  tests.TestBase - End of method registrationPositiveTestCSV
+12:51:52 INFO  tests.TestBase - Start method registrationPositiveTestFromDPClass
+12:52:03 INFO  tests.TestBase - Registration: 
+Name - Symba
+Last Name - King
+Email - symba1@gmail.com
+Password - Pa$$gmailc0m
+12:52:13 INFO  tests.TestBase - End of method registrationPositiveTestFromDPClass
+12:52:13 INFO  tests.TestBase - Start method registrationPositiveTestFromDPClass
+12:52:13 INFO  tests.TestBase - Registration: 
+Name - Symba
+Last Name - King
+Email - symba2@gmail.com
+Password - Pa$$gmailc0m
+12:52:14 INFO  tests.TestBase - End of method registrationPositiveTestFromDPClass
+12:52:14 INFO  tests.TestBase - Start method registrationPositiveTestFromDPClass
+12:52:14 INFO  tests.TestBase - Registration: 
+Name - Symba
+Last Name - King
+Email - symba3@gmail.com
+Password - Pa$$gmailc0m
+12:52:15 INFO  tests.TestBase - End of method registrationPositiveTestFromDPClass

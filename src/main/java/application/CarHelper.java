@@ -68,8 +68,20 @@ public class CarHelper extends HelperBase {
     }
 
     public void attachPhoto() {
-        wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/ferrari.jpg");
+            wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/ferrari.jpg");
+    }
 
+    public void attachPhoto2(String carName) {
+
+        if(carName.equals("Ferrari")) {
+            wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/ferrari.jpg");
+        }else if(carName.equals("BMW")) {
+            wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/BMW.jpg");
+        }else if(carName.equals("Nissan")) {
+            wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/nissan.jpg");
+        }else{
+            wd.findElement(By.id("photos")).sendKeys("/home/ksu/Documents/GitHub_QA28/QA28_XeniaK_ILCarro_v1.0/src/ford.jpg");
+        }
     }
 
     public void waitForActiveSubmit() {
