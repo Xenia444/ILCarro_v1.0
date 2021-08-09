@@ -1,6 +1,5 @@
 package application;
 
-import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
