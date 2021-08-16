@@ -1,0 +1,33 @@
+18:26:07 INFO  application.ApplicationManager - Star browser FIREFOX
+18:26:10 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+18:26:10 INFO  tests.TestBase - Start method registrationPositiveTest
+18:26:10 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+18:26:10 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+18:26:11 INFO  tests.TestBase - Registration: 
+Name - Lion
+Last Name - King2
+Email - pass1570@gmail.com
+Password - Pa$$1570gmailc0m
+18:26:11 INFO  application.MyListener - Start search element By.xpath: //a[.=' Sign up '].
+18:26:11 INFO  application.MyListener - Element By.xpath: //a[.=' Sign up '] found.
+18:26:11 INFO  application.MyListener - Start search element By.id: name.
+18:26:11 INFO  application.MyListener - Element By.id: name found.
+18:26:11 INFO  application.MyListener - Start search element By.id: lastName.
+18:26:11 INFO  application.MyListener - Element By.id: lastName found.
+18:26:11 INFO  application.MyListener - Start search element By.id: email.
+18:26:11 INFO  application.MyListener - Element By.id: email found.
+18:26:12 INFO  application.MyListener - Start search element By.id: password.
+18:26:12 INFO  application.MyListener - Element By.id: password found.
+18:26:12 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+18:26:12 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+18:26:12 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+18:26:23 ERROR application.MyListener - Screenshot src/test/screenshots/screen-1582.png
+18:26:23 ERROR application.MyListener - Unable to locate element: //div[@class='dialog-container']//h2
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fedora', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.12.15-300.fc34.x86_64', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210630123251, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 38686, moz:profile: /tmp/rust_mozprofile61n7jO, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.12.15-300.fc34.x86_64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a93fa42-9517-491a-a9e6-53f675a69e0c
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+18:26:23 INFO  tests.TestBase - End of method registrationPositiveTest

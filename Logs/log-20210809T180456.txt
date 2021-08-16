@@ -1,0 +1,101 @@
+18:04:58 INFO  application.ApplicationManager - Star browser FIREFOX
+18:05:00 INFO  application.ApplicationManager - Navigate to: https://ilcarro.xyz/search
+18:05:00 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+18:05:00 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+18:05:00 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+18:05:00 INFO  tests.TestBase - Registration: 
+Name - Jake
+Last Name - White
+Email - white@gmail.com
+Password - Jack#w1
+18:05:00 INFO  application.MyListener - Start search element By.xpath: //a[.=' Sign up '].
+18:05:00 INFO  application.MyListener - Element By.xpath: //a[.=' Sign up '] found.
+18:05:00 INFO  application.MyListener - Start search element By.id: name.
+18:05:00 INFO  application.MyListener - Element By.id: name found.
+18:05:01 INFO  application.MyListener - Start search element By.id: lastName.
+18:05:01 INFO  application.MyListener - Element By.id: lastName found.
+18:05:01 INFO  application.MyListener - Start search element By.id: email.
+18:05:01 INFO  application.MyListener - Element By.id: email found.
+18:05:01 INFO  application.MyListener - Start search element By.id: password.
+18:05:01 INFO  application.MyListener - Element By.id: password found.
+18:05:01 INFO  application.MyListener - Start search element By.xpath: //div[@class='checkbox-container'].
+18:05:01 INFO  application.MyListener - Element By.xpath: //div[@class='checkbox-container'] found.
+18:05:02 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+18:05:02 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+18:05:03 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+18:05:13 ERROR application.MyListener - Screenshot src/test/screenshots/screen-313.png
+18:05:13 ERROR application.MyListener - Unable to locate element: //div[@class='dialog-container']//h2
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fedora', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.12.15-300.fc34.x86_64', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210630123251, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 36627, moz:profile: /tmp/rust_mozprofile4pP4it, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.12.15-300.fc34.x86_64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8ac7c4-0f4b-49f2-865e-ee49bd95c335
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+18:05:13 INFO  tests.TestBase - End of method registrationPositiveTestCSV
+18:05:13 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+18:05:13 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+18:05:13 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+18:05:13 INFO  tests.TestBase - Registration: 
+Name - Jake
+Last Name - White
+Email - white1@gmail.com
+Password - Jack#w1
+18:05:13 INFO  application.MyListener - Start search element By.xpath: //a[.=' Sign up '].
+18:05:13 INFO  application.MyListener - Element By.xpath: //a[.=' Sign up '] found.
+18:05:13 INFO  application.MyListener - Start search element By.id: name.
+18:05:13 INFO  application.MyListener - Element By.id: name found.
+18:05:14 INFO  application.MyListener - Start search element By.id: lastName.
+18:05:14 INFO  application.MyListener - Element By.id: lastName found.
+18:05:14 INFO  application.MyListener - Start search element By.id: email.
+18:05:14 INFO  application.MyListener - Element By.id: email found.
+18:05:14 INFO  application.MyListener - Start search element By.id: password.
+18:05:14 INFO  application.MyListener - Element By.id: password found.
+18:05:14 INFO  application.MyListener - Start search element By.xpath: //div[@class='checkbox-container'].
+18:05:14 INFO  application.MyListener - Element By.xpath: //div[@class='checkbox-container'] found.
+18:05:15 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+18:05:15 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+18:05:15 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+18:05:25 ERROR application.MyListener - Screenshot src/test/screenshots/screen-325.png
+18:05:25 ERROR application.MyListener - Unable to locate element: //div[@class='dialog-container']//h2
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fedora', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.12.15-300.fc34.x86_64', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210630123251, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 36627, moz:profile: /tmp/rust_mozprofile4pP4it, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.12.15-300.fc34.x86_64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8ac7c4-0f4b-49f2-865e-ee49bd95c335
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+18:05:25 INFO  tests.TestBase - End of method registrationPositiveTestCSV
+18:05:26 INFO  tests.TestBase - Start method registrationPositiveTestCSV
+18:05:26 INFO  application.MyListener - Start search element By.xpath: //a[.=' Log in '].
+18:05:26 INFO  application.MyListener - Element By.xpath: //a[.=' Log in '] found.
+18:05:26 INFO  tests.TestBase - Registration: 
+Name - Jake
+Last Name - White
+Email - white2@gmail.com
+Password - Jack#w1
+18:05:26 INFO  application.MyListener - Start search element By.xpath: //a[.=' Sign up '].
+18:05:26 INFO  application.MyListener - Element By.xpath: //a[.=' Sign up '] found.
+18:05:26 INFO  application.MyListener - Start search element By.id: name.
+18:05:26 INFO  application.MyListener - Element By.id: name found.
+18:05:26 INFO  application.MyListener - Start search element By.id: lastName.
+18:05:26 INFO  application.MyListener - Element By.id: lastName found.
+18:05:26 INFO  application.MyListener - Start search element By.id: email.
+18:05:26 INFO  application.MyListener - Element By.id: email found.
+18:05:26 INFO  application.MyListener - Start search element By.id: password.
+18:05:26 INFO  application.MyListener - Element By.id: password found.
+18:05:27 INFO  application.MyListener - Start search element By.xpath: //div[@class='checkbox-container'].
+18:05:27 INFO  application.MyListener - Element By.xpath: //div[@class='checkbox-container'] found.
+18:05:27 INFO  application.MyListener - Start search element By.xpath: //*[@type='submit'].
+18:05:27 INFO  application.MyListener - Element By.xpath: //*[@type='submit'] found.
+18:05:28 INFO  application.MyListener - Start search element By.xpath: //div[@class='dialog-container']//h2.
+18:05:38 ERROR application.MyListener - Screenshot src/test/screenshots/screen-338.png
+18:05:38 ERROR application.MyListener - Unable to locate element: //div[@class='dialog-container']//h2
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fedora', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.12.15-300.fc34.x86_64', java.version: '11.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210630123251, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 36627, moz:profile: /tmp/rust_mozprofile4pP4it, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.12.15-300.fc34.x86_64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb8ac7c4-0f4b-49f2-865e-ee49bd95c335
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+18:05:38 INFO  tests.TestBase - End of method registrationPositiveTestCSV

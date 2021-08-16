@@ -56,9 +56,9 @@ public class MyDataProvider {
     @DataProvider
     public Iterator<Object[] > validDataRegistrationDPClass() {
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"Symba","King","sym00@gmail.com","Pa$$gmailc0m"});
-        list.add(new Object[]{"Symba","King","sym01@gmail.com","Pa$$gmailc0m"});
-        list.add(new Object[]{"Symba","King","sym02@gmail.com","Pa$$gmailc0m"});
+        list.add(new Object[]{"Symba","King","sym03@gmail.com","Pa$$gmailc0m"});
+        list.add(new Object[]{"Symba","King","sym04@gmail.com","Pa$$gmailc0m"});
+        list.add(new Object[]{"Symba","King","sym05@gmail.com","Pa$$gmailc0m"});
 
         return list.iterator();
     }
